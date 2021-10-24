@@ -2,35 +2,38 @@
 
 ## **Skills**
 
-Languages: JavaScript, Typescript, Python
+**Languages**: JavaScript, Typescript, Python
 
-Database: SQL, Typeorm, DynamoDB, Contentful
+**Database**: SQL, Typeorm, DynamoDB, Contentful
 
-Frontend: React.js, Vue.js, Next.js, Nuxt.js, Material UI, Styled Components, Bootstrap
+**Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Material UI, Styled Components, Bootstrap
 
-Unit Testing: Jest, PyTest
+**Unit Testing**: Jest, PyTest
 
-Cloud Computing: AWS - CloudFormation, CloudFront, CodePipine, Lambda, Ec2, Azure, Azure AD
+**Cloud Computing**: AWS - CloudFormation, CloudFront, CodePipine, Lambda, Ec2, Azure, Azure AD, Github Actions
 
-Agile: Jira, Confluence, Documentation, Lucid Chart
+**Agile**: Jira, Confluence, Documentation, Lucid Chart
 
 # **Expertise**
 
-A full stack software engineer with 4+ years of experience in creating web applications, RESTful APIs, CICD, unit-testing, Agile methodology and quality assurance. 
+- A full stack software engineer with 4+ years of experience in creating web applications, RESTful APIs, CICD, unit-testing, Agile methodology and quality assurance. 
 
+- AWS Certified Developer
+
+- DMI Software Engineer from Janurary 2019 – Present
 
 # **Experience**
 
 ### **Eli Lilly - Design Center:** 
 
 ***Role**: Software Engineer*  
-**About**: The Design Center worked with many different business areas across Eli Lilly to provide development support with a focus on user centered design.*
+**About**: The Design Center worked with many different business areas across Eli Lilly to provide development support with a focus on user centered design.
 
 > **Lilly Trial Guide:** 
 
 - Assisted with overhauling of a public facing React/Sails application to a Next.js/Express application.
 - Written in Typescript, Material UI, Jest, ES-Lint  and supported 3 languages for search and UI.
-- Utilized Contentful, Elastic Search, GraphQl, Google Maps API, and Heroku.
+- Utilized Contentful, Elastic Search, GraphQL, Google Maps API, and Heroku.
 - Maintained Contentful model migrations with CMS application, and used Contentful Webhooks to populate Elastic Search indices.
 
 
@@ -63,11 +66,10 @@ A full stack software engineer with 4+ years of experience in creating web appli
 
 > **Contentful IMS Frontend:**
 
-- Frontend: 
-     - A Nuxt.js SPA that displays information about Contentful space usage, space costs per Vp, and information about employees that are currently users in any given space.
-     - Allows VPs and other interested parties to easily see a current snapshot of their overall Contentful cost across the organization. 
-- Backend: 
-     - Lambda API and State Machine.
+- A webapp and api that displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
+- **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful cost across the organization. 
+- **Backend**: 
+     Lambda API and State Machine that collects information about Cotentful footprint at Eli Lilly.
 
 > **IMS Next Starter:**
 
@@ -81,7 +83,7 @@ A full stack software engineer with 4+ years of experience in creating web appli
 
 
 ### **Current**:
-
+*NOTE: These are two projects that I have very rercently been onboarded to.*
 
 > **Heroku IMS:**
 - About
@@ -125,19 +127,3 @@ Q4 20:
 - Customer trusts Jake with extra responsibilities.
 - “Jake has done an excellent job”
 
-
- 
- DMI	                 JANURARY 2019 – PRESENT
-Software Engineer
-
-DMI Project Highlights
-Design Center, Lilly – Lilly Trial Guide
->	Assisted with overhauling of a public facing React/Sails application to a Next.js/Express application
->	Written in Typescript, Material UI, Jest, ES-Lint  and supported 3 languages for search and UI 
->	Utilized Contentful, Elastic Search, GraphQl, Google Maps API, and Heroku
->	Maintained Contentful model migrations with CMS application, and used Contentful Webhooks to populate Elastic Search indices
-
-Education
-
->	Kenzie Academy,  Full-Stack Web Development 
->	Indiana University, Telecommunications Production and Design
