@@ -95,31 +95,58 @@
 
 # **Client Satisfaction**
 
-Brandon Courtney - Eli Lilly Tech Lead and Product Owner:
-May 25, 2021
-
 ```
 "...thanks for the hard work on the last minute Pipeline Telemetry stuff. Presentation went well, and very glad we got to show off the new features."
 ```
+Brandon Courtney - Eli Lilly Tech Lead and Product Owner  
+May 25, 2021
 
-Valerie Reyes(Eli Lilly Intern):
-August 20, 2021
 ```
 "I wanted to thank you for the support and knowledge you have giving me this summer. I really appreciate you taking the time to explain the concepts I didn’t understand and being patient me, and helping me become a better developer"
 ```
 
-LTG 4.0 release:
+Valerie Reyes(Eli Lilly Intern)  
+August 20, 2021
 
+### **Data Marketplace Release:**
+
+```
+"Congratulations on achieving a significant milestone in our journey towards data democratization with the official go-live of the Data Marketplace!!!!!! Your hard work, pioneering attitude, customer focus, and collaboration have been impressive. Please take the time as we head into the Summer Shut Down to celebrate!"
+```
+
+Kent A. Supancik - Senor Director-Head of Enterprise Data  
+6/25/2020
+
+```
+
+"I wanted to take a few minutes to let all of you know how grateful I am to you for your hard work and dedication to this project. It is almost on a daily basis that I am struck by how talented our team is and how well all of you work together toward our common vision and goals. Thank you for the accomplishments and thank you for making this one of the most rewarding teams I have worked with in my career at Lilly All of you contribute to a great team environment.
+
+This is a significant milestone and sets the foundation for future deliveries of critical value to Lilly and to those we seek to serve. I am incredibly proud of our accomplishment
+
+Congratulations!"
+```
+
+Robert E Taylor - Data Marketplace Product Owner  
+6/25/2020
+
+```
+[To Teddy Stern and Jake Berg]
+"You were both instrumental on the development of the Marketplace UI helping Lilly's journey towards data democratization. Your collaboration with various developer vendors were very impressive and I appreciate your can-do spirit and belief in teamwork. Your efforts have not gone unnoticed and thanks for your technical expertise you both provided to the entire EDP teams. You both will be greatly missed on the Marketplace. Keep up the great work on your UCD future projects."
+```
+
+Angela Minnefield  
+12/01/2020
+
+### **LTG 4.0 release:**
 ```
 "This release is a culmination of a year long effort to bring a new and improved search
 experience to patients and caregivers. This release fundamentally enhances our search
-capability and aligns use with the new look and feel introduced in 2019. 
+capability and aligns use with the new look and feel introduced in 2019."
 ```
 ```
 "Amazing work by a diverse, smart, dedicated and collaborative team. JOB WELL
 DONE! You have enabled patients and caregivers to more easily connect with our
-promising assets through the delivery of this important release of LTG v4.0
-(trials.lilytrialguide.com)."
+promising assets through the delivery of this important release of LTG v4.0."
 ```
 ```
 "Well done, team, and a hearty congratulations to all involved. This update could not
@@ -130,10 +157,19 @@ ahead."
 ```
 "Congratulations, team! This was quite a joumey, and the resilience and flexibility the
 team showed while reacting to the many challenges that arose were impressive. It's
-exciting to see this key resource for patients and caregivers continue to improve.
+exciting to see this key resource for patients and caregivers continue to improve."
 ```
 
+*From various stakeholders in the LTG project not named in email.*  
+5/1/2020  
+
+### **LTG Subsites release:**
 ```
+"Another W for the Lilly Trial Guide team of Jason Curtis Carson Schwalm Derek Hills Jordan Farris Jake Berg Diviyansh Bhatnagarwho was proved a very tight even unrealistic deadline then worked with the customer to define an MVP to get it to market and an MVP for maturation. Nice work guys I know it was stressful at times but you persevered. Thank you."
+```
+
+Jimmy Burkhart  
+6/25/2020
 
 # **Team Satisfaction**
 
