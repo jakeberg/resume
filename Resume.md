@@ -4,7 +4,7 @@
 
 **Languages**: JavaScript, Typescript, Python
 
-**Database**: SQL, Typeorm, DynamoDB, Contentful
+**Database**: SQL, TypeORM, DynamoDB, Contentful
 
 **Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Material UI, Styled Components, Bootstrap
 
@@ -20,7 +20,7 @@
 
 - AWS Certified Developer
 
-- DMI Software Engineer from Janurary 2019 – Present
+- DMI Software Engineer from January 2019 – Present
 
 # **Experience**
 
@@ -48,7 +48,7 @@
 
 > **eCTS():** 
 
-- A legacy application that assists with the construction and management of Eli Lilly's clinical trails and wearhouse distribution. 
+- A legacy application that assists with the construction and management of Eli Lilly's clinical trails and warehouse distribution. 
 - Created front-end application with Create-React-App, Typescript, Material UI, Redux, Redux-Saga.
 - Responsible for leading the data quality exploration function working with an Oracle DB.
 - Manually querying vendor REST services to extract information via AWS Lambda and API Gateway.
@@ -69,7 +69,7 @@
 - A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
 - **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful cost across the organization. 
 - **Backend**: 
-     Lambda API and State Machine that collects information about Cotentful footprint at Eli Lilly.
+     Lambda API and State Machine that collects information about Contentful footprint at Eli Lilly.
 
 > **IMS Next Starter:**
 
@@ -114,7 +114,7 @@ August 20, 2021
 "Congratulations on achieving a significant milestone in our journey towards data democratization with the official go-live of the Data Marketplace!!!!!! Your hard work, pioneering attitude, customer focus, and collaboration have been impressive. Please take the time as we head into the Summer Shut Down to celebrate!"
 ```
 
-Kent A. Supancik - Senor Director-Head of Enterprise Data  
+Kent A. Supancik - Senior Director-Head of Enterprise Data  
 6/25/2020
 
 ```
@@ -155,7 +155,7 @@ was posted to LTG. We are well poised to truly make a difference for patients in
 ahead."
 ```
 ```
-"Congratulations, team! This was quite a joumey, and the resilience and flexibility the
+"Congratulations, team! This was quite a journey, and the resilience and flexibility the
 team showed while reacting to the many challenges that arose were impressive. It's
 exciting to see this key resource for patients and caregivers continue to improve."
 ```
@@ -165,7 +165,7 @@ exciting to see this key resource for patients and caregivers continue to improv
 
 ### **LTG Subsites release:**
 ```
-"Another W for the Lilly Trial Guide team of Jason Curtis Carson Schwalm Derek Hills Jordan Farris Jake Berg Diviyansh Bhatnagarwho was proved a very tight even unrealistic deadline then worked with the customer to define an MVP to get it to market and an MVP for maturation. Nice work guys I know it was stressful at times but you persevered. Thank you."
+"Another W for the Lilly Trial Guide team of Jason Curtis Carson Schwalm Derek Hills Jordan Farris Jake Berg Diviyansh Bhatnagar who was proved a very tight even unrealistic deadline then worked with the customer to define an MVP to get it to market and an MVP for maturation. Nice work guys I know it was stressful at times but you persevered. Thank you."
 ```
 
 Jimmy Burkhart  
