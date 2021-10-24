@@ -46,9 +46,9 @@
 - PO and UX required fast-paced prototypes while maintaining flexibility to implement when ready.
 - Created JSON development server in order to complete tasks when API was still being developed.
 
-> **Ects:** 
+> **eCTS():** 
 
-- A legacy Java application that assists with the construction and management of Eli Lilly's clinical trails and wearhouse distribution. 
+- A legacy application that assists with the construction and management of Eli Lilly's clinical trails and wearhouse distribution. 
 - Created front-end application with Create-React-App, Typescript, Material UI, Redux, Redux-Saga.
 - Responsible for leading the data quality exploration function working with an Oracle DB.
 - Manually querying vendor REST services to extract information via AWS Lambda and API Gateway.
@@ -66,7 +66,7 @@
 
 > **Contentful IMS Frontend:**
 
-- A webapp and api that displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
+- A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
 - **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful cost across the organization. 
 - **Backend**: 
      Lambda API and State Machine that collects information about Cotentful footprint at Eli Lilly.
@@ -79,22 +79,61 @@
 
 > **IMS Shared Components:**
 
-- Maintains a collections of common Vue.js components that are used for each of the IMS sites. This allows consistency in UX/UI, updates via semantic versioning, and quicker development by utilizing previously built resources. 
+- Maintains a collections of common Vue.js components that are used for each of the IMS sites. 
+- This allows consistency in UX/UI, updates via semantic versioning, and quicker development by utilizing previously built resources. 
 
 
 ### **Current**:
 *NOTE: These are two projects that I have very rercently been onboarded to.*
 
 > **Heroku IMS:**
-- About
+- Lilly's Heroku Inventory Management System (IMS) is a set of microservices built for collating Lilly's Heroku Apps and Pipelines data along with Lilly's Workforce data.
 
 > **Heroku Services:**
-- About
+ - Maintenance services for Heroku.
 
 
- 
 # **Client Satisfaction**
 
+Brandon Courtney - Eli Lilly Tech Lead and Product Owner:
+May 25, 2021
+
+```
+"...thanks for the hard work on the last minute Pipeline Telemetry stuff. Presentation went well, and very glad we got to show off the new features."
+```
+
+Valerie Reyes(Eli Lilly Intern):
+August 20, 2021
+```
+"I wanted to thank you for the support and knowledge you have giving me this summer. I really appreciate you taking the time to explain the concepts I didn’t understand and being patient me, and helping me become a better developer"
+```
+
+LTG 4.0 release:
+
+```
+"This release is a culmination of a year long effort to bring a new and improved search
+experience to patients and caregivers. This release fundamentally enhances our search
+capability and aligns use with the new look and feel introduced in 2019. 
+```
+```
+"Amazing work by a diverse, smart, dedicated and collaborative team. JOB WELL
+DONE! You have enabled patients and caregivers to more easily connect with our
+promising assets through the delivery of this important release of LTG v4.0
+(trials.lilytrialguide.com)."
+```
+```
+"Well done, team, and a hearty congratulations to all involved. This update could not
+have come at a more perfect time, just one day after our first COVID-19 treatment trial
+was posted to LTG. We are well poised to truly make a difference for patients in the time
+ahead."
+```
+```
+"Congratulations, team! This was quite a joumey, and the resilience and flexibility the
+team showed while reacting to the many challenges that arose were impressive. It's
+exciting to see this key resource for patients and caregivers continue to improve.
+```
+
+```
 
 # **Team Satisfaction**
 
