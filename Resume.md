@@ -16,7 +16,7 @@
 
 # **Expertise**
 
-- A full stack software engineer with 4+ years of experience in creating web applications, RESTful APIs, CICD, unit-testing, Agile methodology and quality assurance. 
+- A full stack software engineer with 4+ years of experience in creating web applications, RESTful APIs, CICD, unit-testing with Agile methodology and quality assurance. 
 
 - AWS Certified Developer
 
