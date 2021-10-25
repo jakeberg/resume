@@ -6,7 +6,7 @@
 
 **Database**: SQL, TypeORM, DynamoDB, Contentful
 
-**Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Material UI, Styled Components, Bootstrap
+**Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Redux, Vuex, Material UI, Bootstrap
 
 **Unit Testing**: Jest, PyTest
 
