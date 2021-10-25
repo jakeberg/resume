@@ -27,12 +27,12 @@
 ### **Eli Lilly - Design Center:** 
 
 ***Role**: Software Engineer*  
-**About**: The Design Center worked with many different business areas across Eli Lilly to provide development support with a focus on user centered design.
+**About**: The Design Center works with many different business areas across Eli Lilly to provide development support with a focus on user centered design.
 
 > **Lilly Trial Guide:** 
 
 - Assisted with overhauling of a public facing React/Sails application to a Next.js/Express application.
-- Written in Typescript, Material UI, Jest, ES-Lint  and supported 3 languages for search and UI.
+- Written in Typescript, Material UI, Jest, ES-Lint and supported 3 spoken languages for search and UI.
 - Utilized Contentful, Elastic Search, GraphQL, Google Maps API, and Heroku.
 - Maintained Contentful model migrations with CMS application, and used Contentful Webhooks to populate Elastic Search indices.
 
@@ -46,7 +46,7 @@
 - PO and UX required fast-paced prototypes while maintaining flexibility to implement when ready.
 - Created JSON development server in order to complete tasks when API was still being developed.
 
-> **eCTS():** 
+> **eCTS:** 
 
 - A legacy application that assists with the construction and management of Eli Lilly's clinical trails and warehouse distribution. 
 - Created front-end application with Create-React-App, Typescript, Material UI, Redux, Redux-Saga.
@@ -67,7 +67,7 @@
 > **Contentful IMS Frontend:**
 
 - A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
-- **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful cost across the organization. 
+- **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful footprint across the organization. 
 - **Backend**: 
      Lambda API and State Machine that collects information about Contentful footprint at Eli Lilly.
 
