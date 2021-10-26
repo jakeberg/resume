@@ -16,7 +16,7 @@
 
 # **Expertise**
 
-- A full stack software engineer with 4+ years of experience in creating web applications, RESTful APIs, CICD, unit-testing with Agile methodology and quality assurance. 
+- A full-stack software engineer with 4+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance. 
 
 - AWS Certified Developer
 
@@ -39,8 +39,8 @@
 
 > **Data Marketplace:** 
 
-- Created React application for the Lilly Marketplace, a front-end for the Enterprise Data Program.
-- Used Create-React-App, Typescript, Material UI, Jest, ES-Lint.
+- React.js application for the Lilly Data Marketplace, a front-end for the Enterprise Data Program.
+- Used Typescript, Material UI, Jest, ES-Lint.
 - Deployed to AWS CloudFront using CodePipeline, CodeBuild, CloudFormation.
 - Created a Lambda to refresh user’s tokens from Azure AD.
 - PO and UX required fast-paced prototypes while maintaining flexibility to implement when ready.
@@ -49,9 +49,9 @@
 > **eCTS:** 
 
 - A legacy application that assists with the construction and management of Eli Lilly's clinical trails and warehouse distribution. 
-- Created front-end application with Create-React-App, Typescript, Material UI, Redux, Redux-Saga.
+- Created front-end application with Typescript, Material UI, Redux, Redux-Saga.
 - Responsible for leading the data quality exploration function working with an Oracle DB.
-- Manually querying vendor REST services to extract information via AWS Lambda and API Gateway.
+- Manually queried vendor REST services to extract information via AWS Lambda and API Gateway.
 
 
 ### **Eli Lilly - EDAT:** 
@@ -66,7 +66,7 @@
 
 > **Contentful IMS Frontend:**
 
-- A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about employees that are currently users in any given space.
+- A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about current users in any given space.
 - **Frontend**: A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful footprint across the organization. 
 - **Backend**: 
      Lambda API and State Machine that collects information about Contentful footprint at Eli Lilly.
@@ -90,7 +90,7 @@
 - Lilly's Heroku Inventory Management System (IMS) is a set of microservices built for collating Lilly's Heroku Apps and Pipelines data along with Lilly's Workforce data.
 
 > **Heroku Services:**
- - Maintenance services for Heroku.
+ - Maintenance services for Heroku Organization.
 
 
 # **Client Satisfaction**
@@ -99,14 +99,14 @@
 "...thanks for the hard work on the last minute Pipeline Telemetry stuff. Presentation went well, and very glad we got to show off the new features."
 ```
 Brandon Courtney - Eli Lilly Tech Lead and Product Owner  
-May 25, 2021
+5/25/2021
 
 ```
-"I wanted to thank you for the support and knowledge you have giving me this summer. I really appreciate you taking the time to explain the concepts I didn’t understand and being patient me, and helping me become a better developer"
+"I wanted to thank you for the support and knowledge you have giving me this summer. I really appreciate you taking the time to explain the concepts I didn’t understand and being patient me, and helping me become a better developer."
 ```
 
 Valerie Reyes(Eli Lilly Intern)  
-August 20, 2021
+8/20/2021
 
 ### **Data Marketplace Release:**
 
@@ -119,9 +119,9 @@ Kent A. Supancik - Senior Director-Head of Enterprise Data
 
 ```
 
-"I wanted to take a few minutes to let all of you know how grateful I am to you for your hard work and dedication to this project. It is almost on a daily basis that I am struck by how talented our team is and how well all of you work together toward our common vision and goals. Thank you for the accomplishments and thank you for making this one of the most rewarding teams I have worked with in my career at Lilly All of you contribute to a great team environment.
+"I wanted to take a few minutes to let all of you know how grateful I am to you for your hard work and dedication to this project. It is almost on a daily basis that I am struck by how talented our team is and how well all of you work together toward our common vision and goals. Thank you for the accomplishments and thank you for making this one of the most rewarding teams I have worked with in my career at Lilly. All of you contribute to a great team environment.
 
-This is a significant milestone and sets the foundation for future deliveries of critical value to Lilly and to those we seek to serve. I am incredibly proud of our accomplishment
+This is a significant milestone and sets the foundation for future deliveries of critical value to Lilly and to those we seek to serve. I am incredibly proud of our accomplishment.
 
 Congratulations!"
 ```
@@ -165,7 +165,7 @@ exciting to see this key resource for patients and caregivers continue to improv
 
 ### **LTG Subsites release:**
 ```
-"Another W for the Lilly Trial Guide team of Jason Curtis Carson Schwalm Derek Hills Jordan Farris Jake Berg Diviyansh Bhatnagar who was proved a very tight even unrealistic deadline then worked with the customer to define an MVP to get it to market and an MVP for maturation. Nice work guys I know it was stressful at times but you persevered. Thank you."
+"Another W for the Lilly Trial Guide team of Jason Curtis, Carson Schwalm, Derek Hills, Jordan Farris, Jake Berg, Diviyansh Bhatnagar who was proved a very tight even unrealistic deadline then worked with the customer to define an MVP to get it to market and an MVP for maturation. Nice work guys I know it was stressful at times but you persevered. Thank you."
 ```
 
 Jimmy Burkhart  
@@ -180,7 +180,7 @@ Q2 21:
 - Still getting experience with DevOps: GitHub actions.
 - “Jake exceeds [expectations] on delivery and communication”
 - “Takes initiative to assign work to himself, write user stories when they don’t exist” “asks appropriate questions when necessary”
-- “Communicates well with his team
+- “Communicates well with his team"
 
 Q1 21: 
 
