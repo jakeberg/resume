@@ -84,7 +84,7 @@
 
 
 ### **Current**:
-*NOTE: These are two projects that I have very rercently been onboarded to.*
+*NOTE: These are two projects that I have very recently been onboarded to.*
 
 > **Heroku IMS:**
 - Lilly's Heroku Inventory Management System (IMS) is a set of microservices built for collating Lilly's Heroku Apps and Pipelines data along with Lilly's Workforce data.
