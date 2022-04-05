@@ -4,7 +4,7 @@
 
 **Languages**: JavaScript, Typescript, Python
 
-**Database**: SQL, TypeORM, DynamoDB, Contentful
+**Database**: SQL, MongoDb, Postgres, TypeORM, DynamoDB, Contentful
 
 **Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Redux, Vuex, Material UI, Bootstrap
 
