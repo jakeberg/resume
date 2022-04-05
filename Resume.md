@@ -10,7 +10,7 @@
 
 **Unit Testing**: Jest, PyTest
 
-**Cloud Computing**: AWS - CloudFormation, CloudFront, CodePipine, Lambda, Ec2, Azure, Azure AD, Github Actions
+**Cloud Computing**: AWS - CloudFormation, CloudFront, CodePipline, Lambda, Ec2, Azure, Azure AD, Github Actions
 
 **Agile**: Jira, Confluence, Documentation, Lucid Chart
 
