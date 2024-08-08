@@ -1,10 +1,10 @@
 # Jacob Berg - Senior Software Engineer Assessment 
-
+- A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
 ## **Skills**
 
 **Languages**: JavaScript/Typescript, Python
 
-**Backend**: GraphQL, Postgres, MongoDb, TypeORM, Knex DynamoDB, Contentful
+**Backend**: Temporal Workflows, GraphQL, Postgres, MongoDb, TypeORM, Knex, DynamoDB, Pydantic, Contentful
 
 **Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Redux, Vuex, Material UI, Bootstrap
 
@@ -13,13 +13,6 @@
 **CI/CD**: CloudFormation, CodePipline, Github Actions
 
 **Agile**: Jira, Confluence, Documentation, Lucid Chart
-
-# **Expertise**
-
-- A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
-- AWS Certified Developer Certificate, AWS Solutions Architect Associate Certificate
-
-# **Experience**
 
 ### **Eli Lilly - Design Center:** 
 
