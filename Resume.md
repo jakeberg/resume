@@ -1,5 +1,5 @@
 # Jacob Berg - Senior Software Engineer Assessment 
-- A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
+A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
 ## **Skills**
 
 **Languages**: JavaScript/Typescript, Python
@@ -22,7 +22,7 @@
 > **Lilly Trial Guide:** 
 
 - Assisted with overhauling of a public facing React/Sails application to a Next.js/Express application.
-- Written in Typescript, Material UI, Jest, ES-Lint and supported 3 spoken languages for search and UI.
+- Written in Typescript, Material UI, Jest, ES-Lint and supported 3 languages for search and UI.
 - Utilized Contentful, Elastic Search, GraphQL, Google Maps API, and Heroku.
 - Maintained Contentful model migrations with CMS application, and used Contentful Webhooks to populate Elastic Search indices.
 
@@ -52,7 +52,7 @@
 - Various Nuxt.js SPAs that display information about userbase, cost, and EOL statuses of resources on each platform.
 - Shared Component library that maintains a collections of common Vue.js components that are used for each of the IMS sites. 
 - Was able to reduce the enterprise footprint of Heroku apps by 20% and by locating abandonded apps and spinning them down automatically.
-- Was able to reduce Contentful Space footprint by X amount by locating spaces apps and spinning them down.
+- Was able to reduce Contentful Space footprint 25% by locating spaces apps and spinning them down.
 - Made use of SNS, SQS, Lambda, SES, to update resource statuses and send notifications to users by using the State Machine pattern.
 
 ### **Eli Lilly - Study Orchestration (Maestro):** 
