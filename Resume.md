@@ -2,27 +2,22 @@
 
 ## **Skills**
 
-**Languages**: JavaScript, Typescript, Python
+**Languages**: JavaScript/Typescript, Python
 
 **Backend**: GraphQL, Postgres, MongoDb, TypeORM, Knex DynamoDB, Contentful
 
 **Frontend**: React.js, Vue.js, Next.js, Nuxt.js, Redux, Vuex, Material UI, Bootstrap
 
-**Unit Testing**: Jest, PyTest
+**Cloud Computing**: AWS Certified Developer Certificate, AWS Solutions Architect Associate Certificate
 
-**Cloud Computing**: AWS, CloudFront, CodePipline, Lambda, Ec2
-
-**CI/CD**: CloudFormation, CodePipline, Codebuild, Github Actions
+**CI/CD**: CloudFormation, CodePipline, Github Actions
 
 **Agile**: Jira, Confluence, Documentation, Lucid Chart
 
 # **Expertise**
 
-- A full-stack software engineer with 4+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance. 
-
-- AWS Certified Developer
-
-- Professional Software Engineer from January 2019 – Present
+- A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
+- AWS Certified Developer Certificate, AWS Solutions Architect Associate Certificate
 
 # **Experience**
 
@@ -38,7 +33,6 @@
 - Utilized Contentful, Elastic Search, GraphQL, Google Maps API, and Heroku.
 - Maintained Contentful model migrations with CMS application, and used Contentful Webhooks to populate Elastic Search indices.
 
-
 > **Data Marketplace:** 
 
 - React.js application for the Lilly Data Marketplace, a frontend for the Enterprise Data Program.
@@ -52,21 +46,29 @@
 
 - A legacy application that assists with the construction and management of Eli Lilly's clinical trails and warehouse distribution. 
 - Created front-end application with Typescript, Material UI, Redux, Redux-Saga.
-- Responsible for leading the data quality exploration function working with an Oracle DB.
 - Manually queried vendor REST services to extract information via AWS Lambda and API Gateway.
-
 
 ### **Eli Lilly - EDAT:** 
 
-***Role**: Site Reliability Engineer*  
+***Role**: Senior Site Reliability Engineer*  
 ***About**: EDAT serves as a Devops team for Eli Lilly. They create technologies that assist the overall development community across the company.*
 
 > **IMS(Inventory Management System):**
 
-- A Nuxt.js SPA that displays information about AWS CI/CD pipeline footprint across the Lilly organization.
-- A webapp and API that collects and displays information about Contentful space usage, space costs per VP, and information about current users in any given space.
-- A Nuxt.js SPA that allows VPs and other interested parties to easily see a current snapshot of their overall Contentful footprint across the organization. 
+- A collection of webapps and microservices that collects and collates information about various products that the enterprise owns. (Heroku, Slack, Contentful, AWS Codepipeline)
+- Various Nuxt.js SPAs that display information about userbase, cost, and EOL statuses of resources on each platform.
 - Shared Component library that maintains a collections of common Vue.js components that are used for each of the IMS sites. 
-- Lilly's Heroku Inventory Management System (IMS) is a set of microservices built for collating Lilly's Heroku Apps and Pipelines data along with Lilly's Workforce data.
+- Was able to reduce the enterprise footprint of Heroku apps by 20% and by locating abandonded apps and spinning them down automatically.
+- Was able to reduce Contentful Space footprint by X amount by locating spaces apps and spinning them down.
+- Made use of SNS, SQS, Lambda, SES, to update resource statuses and send notifications to users by using the State Machine pattern.
 
+### **Eli Lilly - Study Orchestration (Maestro):** 
+
+***Role**: Senior Software Engineer*  
+
+- A webapp that assists CSCs(Clinical Trial Coordinators) keep track of and update patient activities within a clinical trial.
+- Javascript, Next.js, Python, DynamoDb, GraphQL, Temporal Workflows, Kinesis, Openshift, Kubernetes
+- Guided development in a senior role in order to meet very stict and complicated business requirements.
+- Built Temporal Workflows to pull data from external Daabases using Plugin-In Architecture.
+- Updates to DynamoDb via GraphQL made use of Saga Pattern for wholistic rollbacks on failure to update multiple DB repositories asyncronously.
 
