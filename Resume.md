@@ -80,5 +80,6 @@ A full-stack software engineer with 6+ years of experience in creating web appli
 - Used Github actions to deploy Cloudformation template to AWS.
 - Developed client relationship with Lilly Tech Lead/Architect and assisted with architecture research.
 - Created docker-compose files for all microservices and Makefile to start up entire app in one command, reducing local development complexity.
+- Used Pandas data library to assist with ETL transactions in the External Interface Controller microservice.
 
 
