@@ -81,6 +81,6 @@ A full-stack software engineer with 6+ years of experience in creating web appli
 - Developed client relationship with Lilly Tech Lead/Architect and assisted with architecture research.
 - Created docker-compose files for all microservices and Makefile to start up entire app in one command, reducing local development complexity.
 - Used Pandas data library to assist with ETL transactions in the External Interface Controller microservice.
-- Used factory pattern in multiple services to simplify and standardize service classes.
+- Used Factory Pattern in multiple services to simplify and standardize service classes.
 
 
