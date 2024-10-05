@@ -1,27 +1,4 @@
-# Resume Updates and Requirements Match
-
-## **Improvements to Resume**
-
-### 1. **Skills Section**
-- **12-Factor Application**: Mention experience with scalable applications that follow the 12-factor principles.
-- **Performance Tuning**: Highlight specific examples of optimizing applications (e.g., improving load times, database query optimization).
-- **Business Analysis & Product Ownership**: Include projects where you gathered business requirements or guided product development.
-- **Scrum Master & Scaled Agile Framework (SAFe)**: If applicable, mention Scrum/Agile practices and your experience leading sprints.
-- **Infrastructure as Code (IaC)**: Expand on your CloudFormation, AWS, and DevOps experience to emphasize automation.
-- **Serverless Technologies & Event-Driven Architecture**: Emphasize your Lambda, EventBridge, SNS, and SQS work for IMS.
-- **Microservices**: Add more about your microservices work with IMS and Maestro.
-- **Advanced Skills in Databases**: Highlight database design expertise with DynamoDB, MongoDB, and Postgres.
-- **Design Patterns & Clean Code**: Mention specific patterns you’ve applied (e.g., Saga pattern).
-
-### 2. **Experience Section**
-- **Modus Operandi**: Highlight leadership in teams and technical guidance for client teams, including work as a client lead with Eli Lilly.
-- **Certifications**: You've mentioned AWS certificates. If you’ve passed the AWS Solution Architect Associate or other certifications listed (AZ-303/304, etc.), list them prominently.
-- **Collaboration with UX**: Mention collaboration with UX for Data Marketplace and other projects that required user-centered designs.
-- **DevOps Tooling**: You’ve mentioned GitHub Actions, CloudFormation, and more. Add Azure DevOps or Jenkins if you have experience with those.
-
----
-
-## **Matched Resume Requirements**
+## **Slick Requirements**
 
 ### **Basic Understanding**
 - **12 Factor Application**:
