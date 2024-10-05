@@ -65,6 +65,7 @@ A full-stack software engineer with 6+ years of experience in creating web appli
 - Was able to reduce the enterprise footprint of Heroku apps by 20% and by locating abandonded apps and spinning them down automatically.
 - Was able to reduce Contentful Space footprint 25% by locating spaces apps and spinning them down.
 - Used Github actions to deploy Cloudformation template to AWS.
+- Drove leadership buy-in to refactor entire legacy IMS for Contentful to match architecture of other IMS systems. This reduced complexity of system, reduced bugs, and reduced data collection time.
 
 ### **Eli Lilly - Study Orchestration (Maestro):** 
 
@@ -78,4 +79,6 @@ A full-stack software engineer with 6+ years of experience in creating web appli
 - Drove creation of audit log system using Kinesis Streams to monitor entity update events.
 - Used Github actions to deploy Cloudformation template to AWS.
 - Developed client relationship with Lilly Tech Lead/Architect and assisted with architecture research.
+- Created docker-compose files for all microservices and Makefile to start up entire app in one command, reducing local development complexity.
+
 
