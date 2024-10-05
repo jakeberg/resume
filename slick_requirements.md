@@ -4,6 +4,7 @@
 - **12 Factor Application**:
    - IMS Microservices and Maestro adhere to the 12-factor app principles (e.g., stateless services, configuration via environment variables, automated releases).
 - **Deployment, Scaling, and Management of containerized applications**:
+   - ECS for EDAT system applications using dockerized webapps.
    - OpenShift/Kubernetes for Maestro, deploying containerized webapps and Temporal Workflows.
 
 ### **Strong Understanding**
@@ -24,7 +25,7 @@
 
 ### **Advanced Understanding**
 - **Scaled Agile Framework (SAFe)**:
-   - Applied Agile at scale across multiple clients and departments, ensuring large-scale delivery of product.
+   - Applied Agile at scale across multiple departments, ensuring large-scale delivery of product.
 - **Clean Code**:
    - Adhered to best practices for maintainable and reusable code across projects like IMS, Maestro.
 - **Requirements analysis**:
@@ -49,11 +50,11 @@
 - **Database design & development**:
    - Hands-on experience with database optimization and design across multiple projects.
 - **Systems analysis & design**:
-   - Led the architecture for IMS and Maestro systems, with a focus on scalability and maintainability.
+   - Led the architecture for IMS, with a focus on scalability and maintainability.
 
 ### **Experience**
 - **Work Experience**:
-   - Over 6 years of multi-client experience, notably with Eli Lilly.
+   - Over 6 years of multi-project client experience, notably with Eli Lilly.
 - **Certifications**:
    - AWS Certified Developer, AWS Solutions Architect Associate.
 - **Modus Operandi**:
