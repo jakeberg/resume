@@ -61,7 +61,8 @@
 - **DevOps tooling**:
    - Experience with CloudFormation, GitHub Actions, and CodePipeline for CI/CD.
 - **Design Patterns**:
-   - Applied Saga pattern and event-driven architecture for Maestro.
+   - Applied Saga pattern and plugin architecture for Maestro.
+   - Utilized State Machine pattern and event-driven architecture for IMS systems
 
 ### **Expert Understanding**
 - **Agile**:
