@@ -63,5 +63,6 @@ A full-stack software engineer with 6+ years of experience in creating web appli
 - Javascript, Next.js, Python, DynamoDb, GraphQL, Temporal Workflows, Kinesis, Openshift, Kubernetes
 - Guided development in a senior role in order to meet very stict and complicated business requirements.
 - Built Temporal Workflows to pull data from external Daabases using Plugin-In Architecture.
-- Updates to DynamoDb via GraphQL made use of Saga Pattern for wholistic rollbacks on failure to update multiple DB repositories asyncronously.
+- Updates to DynamoDb via GraphQL made use of Saga Pattern for wholistic rollbacks on failure to update multiple DB tables.
+- Drove creation of audit log system using Kinesis Streams to monitor entity update events.
 
