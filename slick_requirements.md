@@ -46,7 +46,7 @@
 - **Agile**:
    - Extensive experience leading Agile teams, managing sprints, and working closely with POs.
 - **Core Cloud Concepts**:
-   - AWS Lambda, Kinesis, DynamoDB, and SNS/SQS were core to your serverless architectures.
+   - AWS Lambda, Kinesis, DynamoDB, and SNS/SQS were core to many serverless architectures.
 - **Database design & development**:
    - Hands-on experience with database optimization and design across multiple projects.
 - **Systems analysis & design**:
