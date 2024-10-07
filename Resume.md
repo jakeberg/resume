@@ -1,4 +1,4 @@
-# Jacob Berg - Senior Software Engineer Assessment 
+# Jacob Berg - Tech Lead Software Engineer Assessment 
 A full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and quality assurance.
 ## **Skills**
 
