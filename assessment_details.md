@@ -1,7 +1,7 @@
 Assessment details:
 
 
-## Maestro Study Orchestration(2024-Present):
+## Maestro - Study Orchestration(2024-Present):
 
 For the Maestro Study Orchestration project, I took on a lead role to ensure critical business requirements were met for an application that helps Clinical Trial Coordinators track and update patient activities within trials. I designed and implemented Temporal Workflows to fetch data from external databases, using a plug-in architecture for better scalability and flexibility. My work on DynamoDB involved complex data structures, managed through GraphQL and coordinated with the Saga Pattern for robust, multi-table updates. Additionally, I set up an audit log system with Kinesis Streams to track all entity updates, which strengthened our system’s traceability and monitoring capabilities.
 
