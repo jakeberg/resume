@@ -1,5 +1,5 @@
 # Jacob Berg - Tech Lead Software Engineer Assessment 
-### Full-stack software engineer with 6+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and development expertise.
+### Full-stack software engineer with 8+ years of experience in creating web applications with CICD, unit-testing, Agile methodology and development expertise.
 
 ### ***Certificates:*** AWS Certified Developer Certificate, AWS Solutions Architect Associate Certificate
 
