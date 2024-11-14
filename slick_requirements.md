@@ -1,5 +1,9 @@
 ## **Slick Requirements**
-
+- **Certifications**:
+   - AWS Certified Developer, AWS Solutions Architect Associate.
+- **Modus Operandi**:
+   - Acted as a senior engineer, guiding both technical teams and client developers across multiple projects.
+  
 ### **Basic Understanding**
 - **12 Factor Application**:
    - IMS Microservices and Maestro adhere to the 12-factor app principles (e.g., stateless services, configuration via environment variables, automated releases).
@@ -87,7 +91,4 @@ The Data Marketplace project required agile, flexible UI development, and I work
 
 I helped in the developent of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
 
-- **Certifications**:
-   - AWS Certified Developer, AWS Solutions Architect Associate.
-- **Modus Operandi**:
-   - Acted as a senior engineer, guiding both technical teams and client developers across multiple projects.
+
