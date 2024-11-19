@@ -1,4 +1,4 @@
-# Slick Requirements
+# Slick Requirements (DRAFT)
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
@@ -9,9 +9,8 @@
 
 ### 12-Factor Application
 **Maestro - Study Orchestration**  
-- Designed **stateless Temporal Workflows** to orchestrate clinical trial data activities, ensuring easy scalability and reliability.  
-- Managed **environment variable configurations** for deployment consistency across Kubernetes clusters.  
-- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies.
+- Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture.  
+- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments.
 
 **LillyDev SRE Responsibilities & IMS**  
 - Adhered to **externalized configurations** and environment variable management using Heroku for event-driven microservices.  
