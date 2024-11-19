@@ -2,7 +2,6 @@
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
-  - No additional details needed here; certifications speak for themselves.
 
 ---
 
