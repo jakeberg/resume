@@ -9,10 +9,11 @@
 
 ### 12-Factor Application
 **Maestro - Study Orchestration**  
-- Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture.  
-- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments.
+- Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture.
+- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments with environement variables.
+- Utilized backing services such as S3 
 
-**LillyDev SRE Responsibilities & IMS**  
+** SRE Responsibilities & IMS**  
 - Adhered to **externalized configurations** and environment variable management using Heroku for event-driven microservices.  
 - Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.  
 
@@ -24,15 +25,16 @@
 
 ### Deployment, Scaling, and Management of Containerized Applications
 **Maestro - Study Orchestration**  
-- Deployed containerized applications and Temporal workflows using OpenShift, ensuring rapid scaling for changing trial requirements.  
-- Monitored and auto-scaled Kubernetes pods based on workflow execution metrics, improving resource utilization.  
+- Deployed containerized applications and Temporal workflows using OpenShift, ensuring rapid scaling.  
+- Utilized KCL(Kinesis Client Library) with Kinesis Streams to process streaming data reliably at scale and manage sharding.
 
-**LillyDev SRE Responsibilities & IMS**  
+** Heroku IMS **  
 - Migrated enterprise React applications to ECS with automated pipelines for CI/CD using GitHub Actions.  
-- Scaled ECS services for high availability during SASS inventory updates, reducing downtime by 30%.  
+- Used Lambda API and Dataloader for cached querying to SQL database.
 
-**Lilly Trial Guide**  
-- Migrated the application stack to Next.js and containerized it for deployment to Heroku, streamlining performance and scaling processes.  
+** SRE Resposibilities **
+- Deployed and managed mutliple containerized application that managed multiple SASS products that Client was using. Utilized health checks and rolling updates to ensure system stability
+
 
 ---
 
@@ -86,9 +88,10 @@
 ## Advanced Understanding
 
 ### Serverless Technologies
-**LillyDev SRE Responsibilities & IMS**  
-- Developed event-driven workflows using Lambda, SNS, and SQS to process and notify changes in SASS inventory states.  
-- Leveraged DynamoDB streams and Lambda triggers for near real-time processing of IMS updates.  
+**SRE Responsibilities & IMS**  
+- Developed event-driven workflows using Lambda, SNS, and SQS to process and notify changes in SASS inventory states. Used SQS and SNS to trigger different Lambdas to update system data. Created "resource scanners" and "resource loaders" to distribute work accross the system.
+- Leveraged AWS Eventbridge and to trigger Lambdas for near processing of IMS updates.
+
 
 **Maestro - Study Orchestration**  
 - Built AWS Lambda-based processing for integrating Temporal workflows with external data sources.  
@@ -97,42 +100,54 @@
 ### Design Patterns
 **Maestro - Study Orchestration**  
 - Applied **Saga Pattern** for orchestrating distributed transactions across DynamoDB tables, ensuring data consistency during workflow execution.  
-- Built a plugin-based architecture to allow the addition of new integrations without disrupting existing workflows.
+- Built a plugin-based architecture to allow the addition of new integrations without disrupting existing workflows. Plugins are loaded into an EIC(External Interface Controller) that manage metadata on when Temporal schedules should run, where they should get their data, where to send their data. This ETL system is the backbone of the entire application, allowing the system to scale to any amount of Clinical trial sites that want to be onboarded to the system.
 
-**LillyDev SRE Responsibilities & IMS**  
-- Utilized **event-driven architecture** for state changes in IMS, improving maintainability and system responsiveness.
-
-**eCTS**  
-- Used **State Machine Pattern** for designing microservices that adhered to clinical trial workflows.  
+**SRE Responsibilities & IMS**  
+- Utilized **event-driven architecture** for state changes in IMS, improving maintainability and system responsiveness. Used SQS and SNS to trigger different Lambdas to update system data. Created "resource scanners" and "resource loaders" to distribute work accross the system.
+- Used **State Machine Pattern** for managing the compliance of resources that were created on Heroku. This was done by managing timestamped updates when certain notifactions were sent out to potential owners of Heroku resources. Warnings and notifications were triggered by cron jobs and then monitored to track which notifications were sent to certain application teams. This allowed up to confidently spin down unused resources.
 
 ### DevOps Tooling
 **Maestro - Study Orchestration**  
-- Used GitHub Actions to implement CI/CD pipelines for both containerized workflows and application deployments.  
-- Implemented monitoring and alerting with Prometheus and Grafana for Temporal workflow services.  
+- Used GitHub Actions to implement CI/CD pipelines application deployments.  
+- Automated release processes using GitHub Actions and Kubernetes rollout strategies via Argo CD, maintaing parody between environments with environement variables.
 
-**Data Marketplace**  
-- Built CI/CD pipelines with CodePipeline for frontend and backend deployments, ensuring quick turnaround for updates.  
+**SRE Responsibilities & IMS**  
+- Migrated approx 10 applications from Code Pipeline to Github Actions. All applications had various deployment methods to multiple AWS services. After this update, all applications had a uniform deployment process that streamlined development.
+
+**All Applications**  
+- Built CI/CD pipelines with CodePipeline and Github Actions for frontend and backend deployments, ensuring quick turnaround for updates.
+- Used automated testing, linting and format checking in CI pipelines to maintain greater control over codebase updates.
+ 
 
 ---
 
 ## Expert Understanding
 
 ### Core Cloud Concepts
-**Maestro - Study Orchestration**  
-- Designed and implemented a scalable audit log system using **AWS Kinesis Streams** and DynamoDB to handle high-throughput updates.  
+**Maestro - Study Orchestration**    
+- Managed ingress and egress for systems running on Kuberneties, creating service accounts and rules that allowed or dissallowed services to talk with eachother.
+- Manage DNS, certificate creation, and load balancing for UI application.
+- Documented and analyzed clinical trial workflows to ensure alignment with business and compliance needs.
 - Used **DynamoDB Global Secondary Indexes (GSI)** to sort and query entity updates by their last modified timestamps efficiently.
 
-**LillyDev SRE Responsibilities & IMS**  
-- Built serverless architectures using AWS Lambda, Kinesis, and SQS to streamline data flow and reduce latency.  
+**SRE Responsibilities & IMS**  
+- Built serverless architectures using AWS Lambda, SNS, and SQS to streamline data flow and reduce latency. Utilozed SQS retries for system error handling.
+- Utilized roles and security groups for granular access to resources created for applications.
 - Designed DynamoDB table schemas to optimize for high-volume reads and writes with cost efficiency.  
-
+- Manage DNS, certificate creation, and load balancing for multiple UI applications.
+- Used Azure Enterprise Apps to create client credentials and manage user access to applications.
+  
 ### Systems Analysis & Design
 **Maestro - Study Orchestration**  
 - Conducted impact analysis for integrating React Flow-based business rules management, ensuring alignment with non-technical user workflows.  
-- Defined architectural blueprints for plugin-based Temporal workflows, enabling scalable and reusable components.
+- Reaserched and designed POC for workflow management system that can be configured via React Flow diagrams. This allows users to granularly control their clinical trial site by adding workflow steps that result in system changes and activities/tasks being created automatically. 
+- Designed and implemented a scalable audit log system using **AWS Kinesis Streams** and DynamoDB to handle high-throughput updates.
+
+** SRE Responsibilities & IMS**  
+- Pushed refactor of one IMS application that was similar to another. Refatored application over very short timeframe and allowed for seemless updates to be integrated that were once very time consuming due to bad architecture.
 
 **eCTS**  
 - Redesigned legacy systems into microservices for improved modularity and maintainability.  
-- Documented and analyzed clinical trial workflows to ensure alignment with business and compliance needs.  
+- Built serverless architecure API that was agnostic to the original system and schema so that data could be constumed accross enterprise. Used transformer classes to translate inconsistant data in legacy database that was still required
 
 ---
