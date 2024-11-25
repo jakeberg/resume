@@ -11,7 +11,7 @@
 **Maestro - Study Orchestration**  
 - Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture.
 - Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments with environement variables.
-- Utilized backing services such as S3 
+- Utilized backing services such as S3 to manage plugins for Plugin Architecture in system. Also used S3 to store all actions between Temporal Workflows for transfering large amounts of data between Temporal activities -- this also had the benifit of storing all activity data for autiting perposes.
 
 ** SRE Responsibilities & IMS**  
 - Adhered to **externalized configurations** and environment variable management using Heroku for event-driven microservices.  
