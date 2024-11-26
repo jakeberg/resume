@@ -158,7 +158,7 @@ Notes:
 - Pushed refactor of one IMS application that was similar to another. Refatored application over very short timeframe and allowed for seemless updates to be integrated that were once very time consuming due to bad architecture.
 
 **eCTS**  
-- Redesigned legacy systems into microservices for improved modularity and maintainability.  
+- Redesigned legacy systems into microservices for improved modularity and maintainability. Utilized Lambdas and shared code to share data between microservices.
 - Built serverless architecure API that was agnostic to the original system and schema so that data could be constumed accross enterprise. Used transformer classes to translate inconsistant data in legacy database that was still required.
   
 **Data Marketplace**  
