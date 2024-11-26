@@ -62,7 +62,7 @@ Notes:
 - Delivered iterative updates to meet changing marketplace requirements.  
 
 ### Infrastructure as Code
-**LillyDev SRE Responsibilities & IMS**  
+**SRE Responsibilities & IMS**  
 - Wrote CloudFormation templates to automate ECS service deployments and resource provisioning.  
 - Automated secret rotation and access management using AWS Secrets Manager within IaC templates.  
 
@@ -81,10 +81,17 @@ Notes:
 ### GraphQL
 **Maestro - Study Orchestration**  
 - Designed GraphQL resolvers for querying DynamoDB audit logs, enhancing developer productivity with simplified data access.  
-- Integrated Apollo Client to optimize queries and cache trial data, reducing redundant API calls by 40%.  
+- Integrated Apollo Client to optimize queries and cache trial data, reducing redundant API calls.
+- Used PynamoDB Models and Strawberry GraphQL types to maintain a strict adherance to schama.
+
+**SRE Responsibilities & IMS**  
+- Designed robust database design and GraphQL API that used Dataloader for cached querying to SQL database.
+- Created pagination mechanism via GraphQL for paging through large DB queries.
+- Simplified user access setup in Graphql API by creating user context class that checks the users token as well as the indicators as to whether the call came from an internal app.
 
 **Lilly Trial Guide**  
-- Used GraphQL for efficient data retrieval and integrated it with a responsive frontend.  
+- Used GraphQL for efficient data retrieval and integrated it with a responsive frontend.
+- Integrated Apollo Client to optimize queries and cache trial data, reducing redundant API calls.
 
 ---
 
