@@ -23,9 +23,6 @@ Notes:
 - Maintained **disposability and robusteness** with a remediation Lambda that would scan for ownership status if Ownership System was offline during resource collection.
 - Created **admin specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access to page. Admin could update important system data for Heroku Stack lifecycle updates. Admin could also stage outdated and unclaimed Heroku applications for spindown.
 
-**Data Marketplace**  
-- Deployed a responsive React frontend with configurations managed through environment variables for seamless development and production transitions.  
-- Automated deployments and releases with AWS CodePipeline, adhering to 12-factor principles.  
 
 ---
 
@@ -121,7 +118,6 @@ Notes:
 - Built CI/CD pipelines with CodePipeline and Github Actions for frontend and backend deployments, ensuring quick turnaround for updates.
 - Used automated testing, linting and format checking in CI pipelines to maintain greater control over codebase updates.
 - Managed schema updates with migration strategies. Used timestamped migration files for easy rollback of postgres dbs, triggered by a Lambda on system deployment.
- 
 
 ---
 
@@ -147,11 +143,13 @@ Notes:
 - Reaserched and designed POC for workflow management system that can be configured via React Flow diagrams. This allows users to granularly control their clinical trial site by adding workflow steps that result in system changes and activities/tasks being created automatically. 
 - Designed and implemented a scalable audit log system using AWS Kinesis Streams and DynamoDB to handle high-throughput updates.
 
-** SRE Responsibilities & IMS**  
+**SRE Responsibilities & IMS**  
 - Pushed refactor of one IMS application that was similar to another. Refatored application over very short timeframe and allowed for seemless updates to be integrated that were once very time consuming due to bad architecture.
 
 **eCTS**  
 - Redesigned legacy systems into microservices for improved modularity and maintainability.  
-- Built serverless architecure API that was agnostic to the original system and schema so that data could be constumed accross enterprise. Used transformer classes to translate inconsistant data in legacy database that was still required
-
+- Built serverless architecure API that was agnostic to the original system and schema so that data could be constumed accross enterprise. Used transformer classes to translate inconsistant data in legacy database that was still required.
+  
+**Data Marketplace**  
+- Project required agile, flexible UI development, and I worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
 ---
