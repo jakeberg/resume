@@ -44,13 +44,14 @@ Notes:
 ## Strong Understanding
 
 ### Performance Tuning
-**LillyDev SRE Responsibilities & IMS**  
-- Optimized DynamoDB queries by redesigning table structures and indexing strategies, reducing read costs by 20%.  
-- Reduced Heroku app utilization by consolidating redundant services and migrating legacy dependencies.  
+**SRE Responsibilities & IMS**    
+- Reduced Heroku utilization by lowering enterprise footprint by 20% in Heroku apps and resources. This was done by managing timestamped updates when certain notifactions were sent out to potential owners of Heroku resources. Warnings and notifications were triggered by cron jobs and then monitored to track which notifications were sent to certain application teams. This allowed the pruduct owner to confidently delegate the spin down unused resources.
+- Reduced Contentful space utilization by lowering enterprise footprint 25%. This was achieved by tracking when spaces were last used. A script would run nightly and tag the spaces that had not been utilized in the last 180 days. Memebers of these Contentful sites were sent notifications to delete their spaces if they were not being used. This data also gave the product owner confidence and neccessary data to delegate the removal of spaces that were not being used.
+- Recognized need for increased memory in API worker, speeding up queries to DB considerably.
+- Drove refactor of original Contentful IMS by parodying the exiting architecture for the Heroku IMS. By utilizing event-driven architecture, the refactor allowed for resources to scale during resoure collection and loading. This cut resource collection in half after it was complete. It also drastically improved code update speed and delivery.
 
 **Maestro - Study Orchestration**  
-- Improved workflow execution speed by optimizing Temporal plugin queries and utilizing batched data fetches.  
-- Streamlined data storage by restructuring DynamoDB schemas, reducing storage overhead by 25%.  
+- Improved workflow execution speed by optimizing Temporal plugin queries and utilizing batched data fetches.   
 
 ### Business Analysis
 **Maestro - Study Orchestration**  
@@ -73,7 +74,8 @@ Notes:
 ### Test-Driven Development
 **Maestro - Study Orchestration**  
 - Developed unit tests for Temporal workflows using **pytest** to validate plugin behavior and ensure data integrity.  
-- Implemented contract testing for GraphQL APIs to catch breaking schema changes early in the pipeline.  
+- Implemented contract testing for GraphQL APIs to catch breaking schema changes early in the pipeline.
+- Used pytest for testing system stability and coverage of unit tests.
 
 **Lilly Trial Guide**  
 - Used Jest to ensure robust test coverage for the Next.js application, particularly for multilingual support.  
@@ -113,7 +115,7 @@ Notes:
 
 **SRE Responsibilities & IMS**  
 - Utilized **event-driven architecture** for state changes in IMS, improving maintainability and system responsiveness. Used SQS and SNS to trigger different Lambdas to update system data. Created "resource scanners" and "resource loaders" to distribute work accross the system.
-- Used **State Machine Pattern** for managing the compliance of resources that were created on Heroku. This was done by managing timestamped updates when certain notifactions were sent out to potential owners of Heroku resources. Warnings and notifications were triggered by cron jobs and then monitored to track which notifications were sent to certain application teams. This allowed up to confidently spin down unused resources.
+- Used **State Machine Pattern** for managing the compliance of resources that were created on Heroku. This was done by managing timestamped updates when certain notifactions were sent out to potential owners of Heroku resources. Warnings and notifications were triggered by cron jobs and then monitored to track which notifications were sent to certain application teams. This allowed the pruduct owner to confidently delegate the spin down unused resources.
 
 ### DevOps Tooling
 **Maestro - Study Orchestration**  
