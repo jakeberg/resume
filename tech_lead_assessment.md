@@ -38,8 +38,6 @@ Notes:
 - Migrated enterprise React applications to ECS with automated pipelines for CI/CD using GitHub Actions.  
 - Used SNS, SQS and Lambdas for resource collection, which allowed for scaling of compute processes during resource scanning and DB updates. 
 - Used Lambda API and Dataloader for cached querying to SQL database.
-
-** SRE Resposibilities **
 - Deployed and managed mutliple containerized application that managed multiple SASS products that Client was using. Utilized health checks and rolling updates to ensure system stability.
 
 ---
