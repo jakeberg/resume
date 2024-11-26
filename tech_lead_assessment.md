@@ -1,7 +1,9 @@
 # Slick Requirements (DRAFT)
 
+```
 Notes:
 - Where should I put information about package/module management with NPM workspaces and shared code?
+```
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
