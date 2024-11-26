@@ -1,5 +1,8 @@
 # Slick Requirements (DRAFT)
 
+Notes:
+- Where should I put information about package/module management with NPM workspaces and shared code?
+
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
 
@@ -9,13 +12,16 @@
 
 ### 12-Factor Application
 **Maestro - Study Orchestration**  
-- Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture.
-- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments with environement variables.
+- Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture. Temporal Workflows were utilized for automatic updates to system data via triggers and schedules, managed by a **plugin architecture** system.
+- Automated release processes using **GitHub Actions** and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaing parody between environments with environement variables. System settings were stored in a repository, which is monitored by Argo CD for dynamic updates to environments.
 - Utilized backing services such as S3 to manage plugins for Plugin Architecture in system. Also used S3 to store all actions between Temporal Workflows for transfering large amounts of data between Temporal activities -- this also had the benifit of storing all activity data for autiting perposes.
+- Maintained **disposability and robusteness**  of temporal worker by designing a remediation mechanism into system startup. On startup, application would pull all existing plugins from S3 to create/delete any workflow schedule that may have been out of sync if system was offline.
 
-** SRE Responsibilities & IMS**  
+**SRE Responsibilities & IMS**  
 - Adhered to **externalized configurations** and environment variable management using Heroku for event-driven microservices.  
-- Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.  
+- Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.
+- Maintained **disposability and robusteness** with a remediation Lambda that would scan for ownership status if Ownership System was offline during resource collection.
+- Created **admin specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access to page. Admin could update important system data for Heroku Stack lifecycle updates. Admin could also stage outdated and unclaimed Heroku applications for spindown.
 
 **Data Marketplace**  
 - Deployed a responsive React frontend with configurations managed through environment variables for seamless development and production transitions.  
@@ -28,13 +34,13 @@
 - Deployed containerized applications and Temporal workflows using OpenShift, ensuring rapid scaling.  
 - Utilized KCL(Kinesis Client Library) with Kinesis Streams to process streaming data reliably at scale and manage sharding.
 
-** Heroku IMS **  
+**SRE Responsibilities & IMS**   
 - Migrated enterprise React applications to ECS with automated pipelines for CI/CD using GitHub Actions.  
+- Used SNS, SQS and Lambdas for resource collection, which allowed for scaling of compute processes during resource scanning and DB updates. 
 - Used Lambda API and Dataloader for cached querying to SQL database.
 
 ** SRE Resposibilities **
-- Deployed and managed mutliple containerized application that managed multiple SASS products that Client was using. Utilized health checks and rolling updates to ensure system stability
-
+- Deployed and managed mutliple containerized application that managed multiple SASS products that Client was using. Utilized health checks and rolling updates to ensure system stability.
 
 ---
 
@@ -51,7 +57,7 @@
 
 ### Business Analysis
 **Maestro - Study Orchestration**  
-- Conducted joint application design (JAD) sessions with product owners to refine business rules for non-technical user configurability.  
+- Conducted application design sessions with product owners to refine business rules for non-technical user configurability.  
 - Created dynamic workflows for trial coordinators to adapt patient activities based on clinical protocol requirements.  
 
 **Data Marketplace**  
@@ -92,7 +98,6 @@
 - Developed event-driven workflows using Lambda, SNS, and SQS to process and notify changes in SASS inventory states. Used SQS and SNS to trigger different Lambdas to update system data. Created "resource scanners" and "resource loaders" to distribute work accross the system.
 - Leveraged AWS Eventbridge and to trigger Lambdas for near processing of IMS updates.
 
-
 **Maestro - Study Orchestration**  
 - Built AWS Lambda-based processing for integrating Temporal workflows with external data sources.  
 - Enhanced audit logging with DynamoDB streams for real-time monitoring.  
@@ -117,6 +122,7 @@
 **All Applications**  
 - Built CI/CD pipelines with CodePipeline and Github Actions for frontend and backend deployments, ensuring quick turnaround for updates.
 - Used automated testing, linting and format checking in CI pipelines to maintain greater control over codebase updates.
+- Managed schema updates with migration strategies. Used timestamped migration files for easy rollback of postgres dbs, triggered by a Lambda on system deployment.
  
 
 ---
@@ -141,7 +147,7 @@
 **Maestro - Study Orchestration**  
 - Conducted impact analysis for integrating React Flow-based business rules management, ensuring alignment with non-technical user workflows.  
 - Reaserched and designed POC for workflow management system that can be configured via React Flow diagrams. This allows users to granularly control their clinical trial site by adding workflow steps that result in system changes and activities/tasks being created automatically. 
-- Designed and implemented a scalable audit log system using **AWS Kinesis Streams** and DynamoDB to handle high-throughput updates.
+- Designed and implemented a scalable audit log system using AWS Kinesis Streams and DynamoDB to handle high-throughput updates.
 
 ** SRE Responsibilities & IMS**  
 - Pushed refactor of one IMS application that was similar to another. Refatored application over very short timeframe and allowed for seemless updates to be integrated that were once very time consuming due to bad architecture.
