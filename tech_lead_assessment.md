@@ -2,7 +2,7 @@
 
 ```
 Notes:
-- Where should I put information about package/module management with NPM workspaces and shared code?
+- Where should I put information about package/module management with NPM workspaces and shared code? (added this to IMS stuff in 12 factor)
 ```
 
 ## Certifications
