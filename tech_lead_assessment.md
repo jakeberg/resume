@@ -20,8 +20,9 @@ Notes:
 - Maintained **disposability and robusteness**  of temporal worker by designing a remediation mechanism into system startup. On startup, application would pull all existing plugins from S3 to create/delete any workflow schedule that may have been out of sync if system was offline.
 - Created dynamic workflows for trial coordinators to adapt patient activities based on clinical protocol requirements.
 - Used Docker with docker-compose for local development of multiple micro services running simultaneously with a Makefile. Implemented localstack to spin up AWS services locally(DynamoDB, S3) through docker-compose.
-**SRE Responsibilities & IMS**  
-- Adhered to **externalized configurations** and environment variable management using Heroku for event-driven microservices.  
+
+## **SRE Responsibilities & IMS**  
+- Adhered to **externalized configurations** and environment variable management using AWS for event-driven microservices.  
 - Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.
 - Maintained **disposability and robusteness** with a remediation Lambda that would scan for ownership status if Ownership System was offline during resource collection.
 - Created **admin specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access to page. Admin could update important system data for Heroku Stack lifecycle updates. Admin could also stage outdated and unclaimed Heroku applications for spindown.
