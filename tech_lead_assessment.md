@@ -65,7 +65,10 @@ Notes:
   
 **Data Marketplace**  
 - Collaborated with UX teams to align evolving user interface designs with business objectives, ensuring rapid prototyping.  
-- Delivered iterative updates to meet changing marketplace requirements.  
+- Delivered iterative updates to meet changing marketplace requirements.
+  
+**SRE Responsibilities & IMS**
+- Worked closely with product owner of multiple SASS products to develop and architect multiple programs and applications ensuring user management, resource management, authentication to products. 
 
 ### Infrastructure as Code
 **SRE Responsibilities & IMS**  
