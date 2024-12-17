@@ -18,7 +18,7 @@ Notes:
 - Automated release processes using GitHub Actions and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaining parody between environments with environement variables. System settings were stored in a repository, which is monitored by Argo CD for dynamic updates to environments.
 - Utilized backing services such as S3 to manage plugins for Plugin Architecture in system. Also used S3 to store all actions between Temporal Workflows for transfering large amounts of data between Temporal activities -- this also had the benifit of storing all activity data for auditing purposes.
 - Maintained **disposability and robusteness**  of temporal worker by designing a remediation mechanism into system startup. On startup, application would pull all existing plugins from S3 to create/delete any workflow schedule that may have been out of sync if system was offline.
-- Created dynamic workflows for trial coordinators to adapt patient activities based on clinical protocol requirements.
+- Created dynamic workflows for trial coordinators to adapt patient activities based on clinical protocol requirements using React Flow, Next.js, JDM models with Zen Engine.
 - Used Docker with docker-compose for local development of multiple micro services running simultaneously with a Makefile. Implemented localstack to spin up AWS services locally(DynamoDB, S3) through docker-compose.
 
 **SRE Responsibilities & IMS**  
