@@ -36,7 +36,8 @@ Notes:
 - Utilized KCL(Kinesis Client Library) with Kinesis Streams to process streaming data reliably at scale and manage sharding of database.
 
 **SRE Responsibilities & IMS**   
-- Migrated enterprise Vue and React applications to ECS with automated pipelines for CI/CD using GitHub Actions.  
+- Migrated enterprise Vue and React applications to ECS with automated pipelines for CI/CD using GitHub Actions.
+- Gained expert understanding  of CI/CD practices GitHub Actions, Cloudformation, AWS CLI, Docker, Artifactory.
 - Used SNS, SQS and Lambdas for resource collection, which allowed for scaling of compute processes during resource scanning and DB updates. 
 - Used Lambda API and Dataloader for cached querying to SQL database.
 - Deployed and managed containerized applications that managed multiple SASS products that client was using.
