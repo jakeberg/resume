@@ -33,7 +33,7 @@ Notes:
 ### Deployment, Scaling, and Management of Containerized Applications
 **Maestro - Study Orchestration**  
 - Deployed containerized applications and Temporal workflows using OpenShift, ensuring rapid scaling.  
-- Utilized KCL(Kinesis Client Library) with Kinesis Streams to process streaming data reliably at scale and manage sharding.
+- Utilized KCL(Kinesis Client Library) with Kinesis Streams to process streaming data reliably at scale and manage sharding of database.
 
 **SRE Responsibilities & IMS**   
 - Migrated enterprise Vue and React applications to ECS with automated pipelines for CI/CD using GitHub Actions.  
