@@ -28,6 +28,13 @@ Notes:
 - Created **admin specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access to page. Admin could update important system data for Heroku Stack lifecycle updates. Admin could also stage outdated and unclaimed Heroku applications for spindown.
 - Used Docker with docker-compose for local development of backend event-driven services. Implemented localstack to spin up AWS services locally(SNS, SQS) through docker-compose.
 - Used NPM workspaces to structure monorepo of multiple services and modules. This included Lambda Layers that were dynamically structured for deployment.
+
+**Trial Guide**
+- Heroku application deployment with environments including a pre production environment for blue green deployment.
+- Used Contenful resources to dynamically build React components based off of resource type.
+- Maintained CMS model management system to synchronize Contenful environment.
+- Created script to run and update Typescript types pulled from Contenful
+
 ---
 
 ### Deployment, Scaling, and Management of Containerized Applications
@@ -150,6 +157,7 @@ Notes:
 
 **SRE Responsibilities & IMS**  
 - Built serverless architectures using AWS Lambda, SNS, and SQS to streamline data flow and reduce latency. Utilized SQS retries for system error handling.
+- Managed ingress and egress for Lambdas, EC2, Postgres, DynamoDB in AWS
 - Utilized roles and security groups for granular access to resources created for applications.
 - Designed DynamoDB table schemas to optimize for high-volume reads and writes with cost efficiency.  
 - Manage DNS, certificate creation, and load balancing for multiple UI applications.
@@ -170,6 +178,7 @@ Notes:
   
 **Data Marketplace**  
 - Project required agile, flexible UI development, and I worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
+
 ---
 
 
@@ -203,6 +212,6 @@ The Data Marketplace project required agile, flexible UI development, and I work
 
 ### Lilly Trial Guide(2018 - 2019):
 
-I helped in the developent of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
+I helped in the developent of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search with Kabana, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
 
 
