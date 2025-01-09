@@ -86,8 +86,6 @@ Notes:
 - Managed Kubernetes deployments through Helm charts, enabling version control and consistent application setup.  
 - Designed infrastructure using OpenShift templates to simplify container management.  
 
-**Add all deployment methods for all other apps**
-
 ### Test-Driven Development
 **Maestro - Study Orchestration**  
 - Developed unit tests for Temporal workflows using pytest to validate plugin behavior and ensure data integrity.  
@@ -95,8 +93,6 @@ Notes:
 
 **Lilly Trial Guide**  
 - Used Jest to ensure robust test coverage for the Next.js application, particularly for multilingual support.  
-
-**Add all other apps describing JavaScript testing and python**
 
 ### GraphQL
 **Maestro - Study Orchestration**  
