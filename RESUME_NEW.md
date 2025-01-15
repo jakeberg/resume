@@ -1,4 +1,4 @@
-# Jacob Victor Berg - Senior Software Engineer/ Site Reliability Engineer
+# Jacob Victor Berg - Senior Software Engineer / Site Reliability Engineer
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
@@ -6,7 +6,7 @@
 ## **Experience**
 
 ### Maestro - Study Orchestration (2024-Present):
-Assisted in lead development of Temporal Workflows and a plug-in architecture, Temporal Workflows, GraphQL, DynamoDB, and the Saga Pattern. Currently researching a React Flow-based rule management system to enable site-specific configurations for non-technical users, enhancing scalability and adaptability.
+Assisted in lead development data processing system by utilizing Temporal Workflows, plug-in architecture, GraphQL, DynamoDB/NoSQL, and the Saga Pattern. Built out a React Flow-based rule management system to enable site-specific configurations for non-technical users, enhancing scalability and adaptability.
 
 - Assisted in design of Temporal Workflows to orchestrate clinical trial data, ensuring easy scalability and reliability via a **distributed and microservice** architecture. Temporal Workflows were utilized for automatic updates to system data via triggers and schedules, managed by a **plugin architecture** system.
 - Automated release processes using GitHub Actions and Kubernetes rollout strategies via Argo CD and Gitub Actions, maintaining parody between environments with environement variables. System settings were stored in a repository, which is monitored by Argo CD for dynamic updates to environments.
@@ -59,7 +59,7 @@ Managed shared DevOps services and infrastructure-as-code using CloudFormation, 
 - Worked closely with product owner of multiple SASS products to develop and architect multiple programs and applications ensuring user management, resource management, authentication to products.
 - Developed CloudFormation templates to automate ECS service deployments and resource provisioning.  
 - Automated secret rotation and access management using AWS Secrets Manager within IaC templates.  
-- Used Jest to ensure robust test coverage for the Next.js application, particularly for multilingual support.  
+- Used Jest to ensure end to end test coverage for the Next.js application, particularly for multilingual support.  
 - Designed robust database design and GraphQL API that used Dataloader for cached querying to SQL database.
 - Created pagination mechanism via GraphQL for paging through large DB queries.
 - Simplified user access setup in Graphql API by creating user context class that checks the users token as well as the indicators as to whether the call came from an internal app.
@@ -102,3 +102,4 @@ Migrated a public-facing application to a Next.js/Express stack, integrating wit
 - Used GraphQL for efficient data retrieval and integrated it with a responsive frontend.
 - Integrated Apollo Client to optimize queries and cache trial data, reducing redundant API calls.
 - Implemented mechanism that would pull Contentful Schema and compare updated schema to our app typings, maintaining a 1 to 1 relationship with Sass product updates and codebase.
+- Customized Material UI for component library with Styled Components.
