@@ -1,4 +1,5 @@
-# Jacob Victor Berg - Senior Software Engineer / Site Reliability Engineer
+# Jacob Victor Berg
+`Senior Software Engineer / Site Reliability Engineer`
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
