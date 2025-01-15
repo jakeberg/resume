@@ -195,13 +195,3 @@ The Data Marketplace project required agile, flexible UI development. I worked d
 
 ### Lilly Trial Guide (2019-2020):
 I helped in the development of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search with Kabana, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
-
-
-
-Mention:
-Styled Components
-No SQL
-data processing systems
-express 
-end to end testing
-documentation
