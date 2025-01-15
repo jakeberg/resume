@@ -1,4 +1,4 @@
-# Slick Requirements (DRAFT)
+# Jacob Victor Berg - Senior Software Engineer/ Site Reliability Engineer
 
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
@@ -7,8 +7,6 @@
 - Acted as a senior engineer, guiding technical business guidance and assisting developers across multiple projects. Assisted in technical interviews.
 
 ---
-
-## Basic Understanding
 
 ### 12-Factor Application
 **Maestro - Study Orchestration**  
@@ -50,8 +48,6 @@
 
 ---
 
-## Strong Understanding
-
 ### Performance Tuning
 **SRE Responsibilities & IMS**  
 - Reduced Heroku utilization by lowering enterprise footprint by 20% in Heroku apps and resources. This was done by managing timestamped updates when certain notifications were sent to potential owners of Heroku resources. Warnings and notifications were triggered by AWS EventBridge and monitored to track notifications sent to application teams (**state machine**). This allowed the product owner to confidently delegate the spin-down of unused resources.
@@ -83,6 +79,8 @@
 - Managed Kubernetes deployments through Helm charts, enabling version control and consistent application setup.  
 - Designed infrastructure using OpenShift templates to simplify container management.  
 
+**Add all deployment methods for all other apps**
+
 ### Test-Driven Development
 **Maestro - Study Orchestration**  
 - Developed unit tests for Temporal workflows using pytest to validate plugin behavior and ensure data integrity.  
@@ -90,6 +88,8 @@
 
 **Lilly Trial Guide**  
 - Used Jest to ensure robust test coverage for the Next.js application, particularly for multilingual support.  
+
+**Add all other apps describing JavaScript testing and python**
 
 ### GraphQL
 **Maestro - Study Orchestration**  
@@ -108,8 +108,6 @@
 - Implemented a mechanism that would pull the Contentful Schema and compare the updated schema to app typings, maintaining a 1-to-1 relationship with SaaS product updates and codebase.
 
 ---
-
-## Advanced Understanding
 
 ### Serverless Technologies
 **SRE Responsibilities & IMS**  
@@ -144,8 +142,6 @@
 
 ---
 
-## Expert Understanding
-
 ### Core Cloud Concepts
 **Maestro - Study Orchestration**    
 - Managed ingress and egress for systems running on Kubernetes, creating service accounts and rules that allowed or disallowed services to talk with each other.
@@ -159,7 +155,6 @@
 - Designed DynamoDB table schemas to optimize for high-volume reads and writes with cost efficiency.  
 - Managed DNS, certificate creation, and load balancing for multiple UI applications.
 - Used Azure Enterprise Apps to create client credentials and manage user access to applications.
-
 ### Systems Analysis & Design
 **Maestro - Study Orchestration**  
 - Conducted impact analysis for integrating React Flow-based business rules management, ensuring alignment with non-technical user workflows.  
@@ -201,3 +196,12 @@ The Data Marketplace project required agile, flexible UI development. I worked d
 ### Lilly Trial Guide (2019-2020):
 I helped in the development of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search with Kabana, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
 
+
+
+Mention:
+Styled Components
+No SQL
+data processing systems
+express 
+end to end testing
+documentation
