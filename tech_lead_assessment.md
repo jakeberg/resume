@@ -162,7 +162,7 @@
 ### Systems Analysis & Design
 **Maestro - Study Orchestration**  
 - Conducted impact analysis for integrating React Flow-based business rules management, ensuring alignment with non-technical user workflows.  
-- Reaserched and designed POC for workflow management system that can be configured via React Flow diagrams. This allows users to granularly control their clinical trial site by adding workflow steps that result in system changes and activities/tasks being created automatically. 
+- Researched and designed POC for workflow management system that can be configured via React Flow diagrams. This allows users to granularly control their clinical trial site by adding workflow steps that result in system changes and activities/tasks being created automatically. 
 - Designed and implemented a scalable audit log system using AWS Kinesis Streams and DynamoDB to handle high-throughput updates.
 
 **SRE Responsibilities & IMS**  
