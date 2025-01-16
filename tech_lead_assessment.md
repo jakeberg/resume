@@ -4,8 +4,8 @@
 ## Certifications
 - AWS Certified Developer, AWS Solutions Architect Associate  
 
-Modus Operandi:
-Acted as a senior engineer, guiding technical business guidance and assisting developers across multiple projects. Assisted in technical interviews.
+## Modus Operandi:
+- Acted as a senior engineer, guiding technical business guidance and assisting developers across multiple projects. Assisted in technical interviews.
 ---
 
 ## Basic Understanding
