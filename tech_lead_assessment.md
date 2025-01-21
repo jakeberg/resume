@@ -4,7 +4,7 @@
 - AWS Certified Developer, AWS Solutions Architect Associate  
 
 ## Modus Operandi:
-- Experienced Software Engineer with over 6 years of expertise in designing and delivering scalable, cloud-native solutions, specializing in microservices, event-driven architectures, and leading cross-functional teams to drive innovation and efficiency. Asissted in technical interviews and coaching. 
+- Experienced Software Engineer with over 6 years of expertise in designing and delivering scalable, cloud-native solutions, specializing in microservices, event-driven architectures, and leading cross-functional teams to drive innovation and efficiency. Assisted in technical interviews and coaching. 
 
 ---
 
