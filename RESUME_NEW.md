@@ -2,13 +2,13 @@
 
 ### Full Stack / Senior Software Engineer / Site Reliability Engineer
 
-#### Experienced Software Engineer with over 6 years of expertise in designing and delivering scalable, cloud-native solutions, specializing in microservices, event-driven architectures, and leading cross-functional teams to drive innovation and efficiency.
+#### Experienced Software Engineer with 7+ years of expertise in designing and delivering scalable, cloud-native solutions, specializing in microservices, event-driven architectures, and leading cross-functional teams to drive innovation and efficiency.
 
 
 
 |               |                               |                  |
 | ------------- | ----------------------------- | ---------------- |
-| (865)804-5952 | / jacobvictorberg@gmail.com / | Indianapolis, IN |
+| (865)804-5952 | / jacobbergdev@gmail.com / | Indianapolis, IN |
 
 **Certifications**: `AWS Certified Developer, AWS Solutions Architect Associate`
 
@@ -18,14 +18,14 @@
 
 **Languages**: `JavaScript, TypeScript, Python, SQL, GraphQL, YAML, Bash`
 
-**Technologies**: `AWS (Lambda, S3, SNS, SQS, DynamoDB, ECS, Kinesis, CloudFormation), Kubernetes, Docker, Temporal, OpenShift, React, Next.js, Vue, Nuxt.js Contentful, Jest, Apollo Client, Argo CD, GitHub Actions, Artifactory, Localstack, Postgres, Azure Enterprise Apps, PynamoDB, ElasticSearch, OAuth, Jira, Github, FastAPI`
+**Technologies**: `AWS (Lambda, S3, SNS, SQS, DynamoDB, ECS, Kinesis, CloudFormation), Kubernetes, Docker, Temporal, OpenShift, React, Next.js, Vue, Nuxt.js Contentful, Jest, Apollo Client, Argo CD, GitHub Actions, Artifactory, Localstack, Postgres, Azure Entra ID, PynamoDB, ElasticSearch, OAuth, Jira, Github, FastAPI`
 
 **Keywords**: `Event-Driven Architecture, Serverless Architecture, Peer Review, Microservices, RESTful APIs, GraphQL APIs, Design Patterns, System Design, Scalability, CI/CD, Devops, Scrum, Agile, Kanban, End to End Unit Testing, Leadership, Coaching`
 
 ---
 
 ## **Experience:** 
-### DMI - Consulting at Eli Lilly (2018-Present)
+### DMI - Consulting at Eli Lilly (2019-Present)
 
 #### Maestro - Study Orchestration (2024-Present):
 
