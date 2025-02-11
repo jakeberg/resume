@@ -27,7 +27,7 @@
 - Adhered to **externalized configurations** and environment variable management using AWS for event-driven microservices.
 - Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.
 - Maintained **disposability and robustness** with a remediation Lambda that would scan for ownership status if Ownership System was offline during resource collection.
-- Created **admin-specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access. Admins could update important system data for Heroku Stack lifecycle updates and stage outdated or unclaimed Heroku applications for spin-down.
+- Created **admin-specific** page Heroku IMS UI to update critical data. Admin page would check JWT for correct Azure group before allowing access. Admins could update important system data for Heroku Stack lifecycle updates and stage outdated or unclaimed Heroku applications for spin-down.
 - Used Docker with docker-compose for local development of backend event-driven services. Implemented localstack to spin up AWS services locally (SNS, SQS) through docker-compose.
 - Used NPM workspaces to structure a monorepo of multiple services and modules. This included Lambda Layers that were dynamically structured for deployment.
 
@@ -50,10 +50,10 @@
 **SRE Responsibilities & IMS**
 
 - Migrated enterprise Vue and React applications to ECS with automated pipelines for CI/CD using GitHub Actions.
-- Gained expert understanding of CI/CD practices, GitHub Actions, CloudFormation, AWS CLI, Docker, and Artifactory.
+- Gained strong understanding of CI/CD practices, GitHub Actions, CloudFormation, AWS CLI, Docker, and Artifactory.
 - Used SNS, SQS, and Lambdas for resource collection, allowing for scaling of compute processes during resource scanning and DB updates.
 - Used Lambda API and Dataloader for cached querying to SQL databases.
-- Deployed and managed containerized applications for multiple SaaS products used by client.
+- Deployed and managed containerized applications that monitored/updated multiple SaaS products used by client (Contentful, Slack, Heroku, AWS).
 - Utilized health checks and rolling updates to ensure system stability.
 
 ---
@@ -75,7 +75,7 @@
 
 **Maestro - Study Orchestration**
 
-- Conducted application design sessions with product owners to refine business rules for non-technical user configurability. This resulted in work on a new business rule management system using React Flow. This solution aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Through these efforts, I’ve actively contributed to enhancing both the application’s functionality and its potential for broader business impact.
+- Conducted application design sessions with product owners to refine business rules for non-technical user configurability. This resulted in work on a new business rule management system using React Flow. This solution aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Through these efforts, Actively contributed to enhancing both the application’s functionality and its potential for broader business impact.
 - Documented and analyzed clinical trial workflows to ensure alignment with business and compliance needs.
 
 **Data Marketplace**
@@ -184,7 +184,6 @@
 **Maestro - Study Orchestration**
 
 - Managed ingress and egress for systems running on Kubernetes, creating service accounts and rules that allowed or disallowed services to talk with each other.
-- Managed DNS, certificate creation, and load balancing for UI applications.
 - Used **DynamoDB Global Secondary Indexes (GSI)** to sort and query entity updates by their last modified timestamps efficiently.
 
 **SRE Responsibilities & IMS**
@@ -193,7 +192,7 @@
 - Managed ingress and egress for Lambdas, EC2, Postgres, and DynamoDB in AWS.
 - Utilized roles and security groups for granular access to resources created for applications.
 - Designed DynamoDB table schemas to optimize for high-volume reads and writes with cost efficiency.
-- Managed DNS, certificate creation, and load balancing for multiple UI applications.
+- Managed DNS, certificate creation, and load balancing for multiple UI applications in AWS Route53 and Certificate Manager.
 - Used Azure Enterprise Apps to create client credentials and manage user access to applications.
 
 ### Systems Analysis & Design
@@ -206,16 +205,16 @@
 
 **SRE Responsibilities & IMS**
 
-- Pushed refactor of one IMS application that was similar to another. Refactored the application over a very short timeframe and allowed for seamless updates to be integrated that were previously time-consuming due to poor architecture.
+- Pushed refactor of Contentful IMS application so that the architechure matched the Heroku IMS. Refactored the application over a very short timeframe and allowed for seamless updates to be integrated that were previously time-consuming due to poor architecture. Was able to process many more messages with SQS instead of Step Functions, and enabled roll back functionality. Separated scanners and loaders of resource collection system to enable separation of resposibility.
 
 **eCTS**
 
-- Redesigned legacy systems into microservices for improved modularity and maintainability. Utilized Lambdas and shared code to share data between microservices.
-- Built a serverless architecture API that was agnostic to the original system and schema so that data could be consumed across the enterprise. Used transformer classes to translate inconsistent data in a legacy database that was still required.
+- Redesigned legacy systems into microservices for improved modularity and maintainability. Previous system was hard coupled to an oracle DB and written in Java. Utilized Lambdas and shared code to share data between microservices to replace the functionality of the existing application.
+- Built a serverless architecture API that was agnostic to the original system and schema so that data could be consumed across the enterprise. Used transformer classes(Adapter Pattern) to translate inconsistent data in a legacy database that was still required.
 
 **Data Marketplace**
 
-- The project required agile, flexible UI development. I worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
+- The project required agile, flexible UI development. Worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
 
 ---
 
