@@ -6,7 +6,8 @@
 
 ## Modus Operandi:
 
-- Acted as a senior engineer, guiding technical business guidance and assisting developers across multiple projects. Assisted in technical interviews.
+- Experienced Software Engineer with over 6 years of expertise in designing and delivering scalable, cloud-native solutions, specializing in microservices, event-driven architectures, and leading cross-functional teams to drive innovation and efficiency. Assisted in technical interviews and coaching. 
+
 
 ---
 
