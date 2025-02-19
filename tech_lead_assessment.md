@@ -27,7 +27,7 @@
 - Adhered to **externalized configurations** and environment variable management using AWS for event-driven microservices.
 - Utilized **stateless services** for Lambda functions interacting with SNS and SQS queues.
 - Maintained **disposability and robustness** with a remediation Lambda that would scan for ownership status if Ownership System was offline during resource collection.
-- Created **admin-specific** page within app to update critical data. Admin page would check JWT for correct Azure group before allowing access. Admins could update important system data for Heroku Stack lifecycle updates and stage outdated or unclaimed Heroku applications for spin-down.
+- Created **admin-specific** page Heroku IMS UI to update critical data. Admin page would check JWT for correct Azure group before allowing access. Admins could update important system data for Heroku Stack lifecycle updates and stage outdated or unclaimed Heroku applications for spin-down.
 - Used Docker with docker-compose for local development of backend event-driven services. Implemented localstack to spin up AWS services locally (SNS, SQS) through docker-compose.
 - Used NPM workspaces to structure a monorepo of multiple services and modules. This included Lambda Layers that were dynamically structured for deployment.
 
@@ -50,10 +50,10 @@
 **SRE Responsibilities & IMS**
 
 - Migrated enterprise Vue and React applications to ECS with automated pipelines for CI/CD using GitHub Actions.
-- Gained expert understanding of CI/CD practices, GitHub Actions, CloudFormation, AWS CLI, Docker, and Artifactory.
+- Gained strong understanding of CI/CD practices, GitHub Actions, CloudFormation, AWS CLI, Docker, and Artifactory.
 - Used SNS, SQS, and Lambdas for resource collection, allowing for scaling of compute processes during resource scanning and DB updates.
 - Used Lambda API and Dataloader for cached querying to SQL databases.
-- Deployed and managed containerized applications for multiple SaaS products used by client.
+- Deployed and managed containerized applications that monitored/updated multiple SaaS products used by client (Contentful, Slack, Heroku, AWS).
 - Utilized health checks and rolling updates to ensure system stability.
 
 ---
@@ -75,7 +75,7 @@
 
 **Maestro - Study Orchestration**
 
-- Conducted application design sessions with product owners to refine business rules for non-technical user configurability. This resulted in work on a new business rule management system using React Flow. This solution aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Through these efforts, I’ve actively contributed to enhancing both the application’s functionality and its potential for broader business impact.
+- Conducted application design sessions with product owners to refine business rules for non-technical user configurability. This resulted in work on a new business rule management system using React Flow. This solution aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Through these efforts, Actively contributed to enhancing both the application’s functionality and its potential for broader business impact.
 - Documented and analyzed clinical trial workflows to ensure alignment with business and compliance needs.
 
 **Data Marketplace**
@@ -184,7 +184,6 @@
 **Maestro - Study Orchestration**
 
 - Managed ingress and egress for systems running on Kubernetes, creating service accounts and rules that allowed or disallowed services to talk with each other.
-- Managed DNS, certificate creation, and load balancing for UI applications.
 - Used **DynamoDB Global Secondary Indexes (GSI)** to sort and query entity updates by their last modified timestamps efficiently.
 
 **SRE Responsibilities & IMS**
@@ -193,7 +192,7 @@
 - Managed ingress and egress for Lambdas, EC2, Postgres, and DynamoDB in AWS.
 - Utilized roles and security groups for granular access to resources created for applications.
 - Designed DynamoDB table schemas to optimize for high-volume reads and writes with cost efficiency.
-- Managed DNS, certificate creation, and load balancing for multiple UI applications.
+- Managed DNS, certificate creation, and load balancing for multiple UI applications in AWS Route53 and Certificate Manager.
 - Used Azure Enterprise Apps to create client credentials and manage user access to applications.
 
 ### Systems Analysis & Design
@@ -206,16 +205,16 @@
 
 **SRE Responsibilities & IMS**
 
-- Pushed refactor of one IMS application that was similar to another. Refactored the application over a very short timeframe and allowed for seamless updates to be integrated that were previously time-consuming due to poor architecture.
+- Pushed refactor of Contentful IMS application so that the architechure matched the Heroku IMS. Refactored the application over a very short timeframe and allowed for seamless updates to be integrated that were previously time-consuming due to poor architecture. Was able to process many more messages with SQS instead of Step Functions, and enabled roll back functionality. Separated scanners and loaders of resource collection system to enable separation of resposibility.
 
 **eCTS**
 
-- Redesigned legacy systems into microservices for improved modularity and maintainability. Utilized Lambdas and shared code to share data between microservices.
-- Built a serverless architecture API that was agnostic to the original system and schema so that data could be consumed across the enterprise. Used transformer classes to translate inconsistent data in a legacy database that was still required.
+- Redesigned legacy systems into microservices for improved modularity and maintainability. Previous system was strongly coupled to an Oracle DB and written in Java. Utilized Lambdas and shared code to share data between microservices to replace the functionality of the existing application.
+- Built a serverless architecture API that was agnostic to the original system and schema so that data could be consumed across the enterprise. Used transformer classes(Adapter Pattern) to translate inconsistent data in a legacy database that was still required.
 
 **Data Marketplace**
 
-- The project required agile, flexible UI development. I worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
+- The project required agile, flexible UI development. Worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals.
 
 ---
 
@@ -226,24 +225,28 @@
 
 ### Maestro - Study Orchestration (2024-Present):
 
-For the Maestro Study Orchestration project, I took on a lead role to ensure critical business requirements were met for an application that helps Clinical Trial Coordinators track and update patient activities within trials. I designed and implemented Temporal Workflows to fetch data from external databases, using a plug-in architecture for better scalability and flexibility. My work on DynamoDB involved complex data structures, managed through GraphQL and coordinated with the Saga Pattern for robust, multi-table updates. Additionally, I set up an audit log system with Kinesis Streams to track all entity updates, which strengthened our system’s traceability and monitoring capabilities.
+Took on a lead role Maestro Study Orchestration project to ensure critical business requirements were met for an application that helps Clinical Trial Coordinators track and update patient activities within trials. Designed and implemented Temporal Workflows to fetch data from external databases, using a plug-in architecture for better scalability and flexibility. Worked on DynamoDB involved complex data structures, managed through GraphQL and coordinated with the Saga Pattern for robust, multi-table updates. Additionally, set up an audit log system with Kinesis Streams to track all entity updates, which strengthened our system’s traceability and monitoring capabilities.
 
-Recently, I initiated work on a new business rule management system using React Flow. This solution, currently in the research phase with the product owner, aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Through these efforts, I’ve actively contributed to enhancing both the application’s functionality and its potential for broader business impact.
+Built out a business rule management system using React Flow. This solution, aims to empower non-technical users to configure site-specific rules within the application, making the system adaptable, user-centric, and scalable. This expansion has the potential to scale the project significantly, as it could lead to a larger team in future project phases. Contributed to enhancing both the application’s functionality and its potential for broader business impact.
 
 ### LillyDev SRE Responsibilities & IMS (Inventory Management System) (2021-2024):
+- heroku.ims.edat.lilly.com
+- contentful.ims.edat.lilly.com
 
-As a Senior Site Reliability Engineer, I oversaw various shared services within Lilly’s DevOps community, such as the LillyDev React site and migration tools on ECS. My role involved setting up infrastructure as code with CloudFormation, monitoring performance, and implementing scalable solutions.
+As a Senior Site Reliability Engineer, oversaw various shared services within Lilly’s DevOps community, such as the LillyDev React site and migration tools on ECS. Provided guidance and design for infrastructure as code with CloudFormation, monitoring performance, and implementing scalable solutions.
 
-One of the major projects I took part in as an SRE was the IMS project. In this project, I led the development of microservices and SPAs that provided visibility into SaaS products being used across the enterprise. This event-driven architecture used SNS, SQS, and Lambda functions to automate notifications and update statuses, improving data integrity. The project required rigorous database design and optimization skills, which I applied to manage lifecycle states and automate ownership processes. I collaborated closely with product owners and UX, deploying with GitHub Actions and using CloudFormation to maintain clean, scalable code. In leading this effort, I was responsible for reducing the overall enterprise footprint by over 20% on Heroku and 25% on Contentful. By employing best practices and collaboration with the client, I built a framework that simplified operations and reduced resource usage.
+Played a major role in the IMS project. Led the development of microservices and SPAs that provided visibility into SaaS products being used across the enterprise. This event-driven architecture used SNS, SQS, and Lambda functions to automate notifications and update statuses, improving data integrity. The project required rigorous database design and optimization skills, which applied to manage lifecycle states and automate ownership processes. Collaborated closely with product owners and UX, deploying with GitHub Actions and using CloudFormation to maintain clean, scalable code. In leading this effort, was responsible for reducing the overall enterprise footprint by over 20% on Heroku and 25% on Contentful. Built a framework that simplified operations and reduced resource usage by employing best practices and collaboration with the client.
 
 ### eCTS (Enterprise Clinical Trial System) (2020-2021):
 
-As a senior engineer on the eCTS project, I contributed to modernizing a legacy clinical trial management system with TypeScript, AWS Lambdas, and API Gateway. This involved designing microservices and serverless architectures that minimized dependencies on older systems. My work extended to maintaining an agile development flow, ensuring we met strict business and compliance requirements. This experience deepened my understanding of event-driven architectures and cloud-native development while allowing me to directly support the scalability and performance goals of the organization.
+Contributed to modernizing a legacy clinical trial management system on the eCTS project by implementing TypeScript, AWS Lambdas, and API Gateway. This involved designing microservices and serverless architectures that minimized dependencies on older systems. Work also involved maintaining an agile development flow, ensuring we met strict business and compliance requirements. This experience deepened my understanding of event-driven architectures and cloud-native development while allowing me to directly support the scalability and performance goals of the organization.
 
 ### Data Marketplace (2020):
+- data.lilly.com
 
-The Data Marketplace project required agile, flexible UI development. I worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals. I used AWS CloudFront, CodePipeline, and CloudFormation to deploy a responsive React frontend, establishing a CI/CD pipeline for smooth releases. This project helped me hone my skills in requirements analysis and design patterns, focusing on delivering a product that was adaptable and efficient.
+The Data Marketplace project required agile, flexible UI development. Worked directly with product owners and UX to rapidly iterate on prototypes that aligned with evolving business goals. Used AWS CloudFront, CodePipeline, and CloudFormation to deploy a responsive React frontend, establishing a CI/CD pipeline for smooth releases. This project required analysis and design patterns, focusing on delivering a product that was adaptable and efficient. The application is still in use and provides a unified interface to access various APIs and data repositories around Lilly.
 
 ### Lilly Trial Guide (2019-2020):
+- trials.lilly.com 
 
-I helped in the development of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. We worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. I helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search with Kabana, making the app easily configurable and efficient. I assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
+Assisted in the development of a major overhaul of a public-facing application, moving it from React/Sails to a Next.js/Express stack. Worked closely with product owners and UX for agile iterations with strict adherence to company guidelines. Helped implement scalable solutions, including deploying to Heroku and integrating with Contentful and Elastic Search with Kabana, making the app easily configurable and efficient. Assisted in streamlining deployment with CI/CD, ensuring a reliable, maintainable product that met Lilly’s high standards for accessibility and multilingual support.
