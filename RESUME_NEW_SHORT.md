@@ -35,13 +35,14 @@ _2021–Present_
 - Built remediation mechanisms for offline recovery and ownership reconciliation.  
 - Managed ingress/egress, DNS, certificates, and security group policies for cloud applications.  
 - Worked cross-functionally with product owners to deliver scalable internal tooling and user management workflows.  
-- Coached and mentored interns; led Scrum meetings and engineering best practices.  
+- Coached and mentored interns; led Scrum meetings and engineering best practices.
+- Maintain and lead Next.js and Vue.js interface development for monitoring tools.
 
 **Senior Software Engineer (Maestro - Study Orchestration)**  
 _2024–Present_  
 - Built distributed data processing systems using Temporal Workflows, React Flow, and GraphQL.  
 - Designed scalable plugin architecture with S3-backed audit logs and automated scheduling.  
-- Led React/Next.js interface development for non-technical rule configuration.  
+- Led React/Next.js interface development for non-technical rule configuration for business stakeholders.  
 - Improved system performance by batching plugin fetches and optimizing Temporal queries.
 
 **Software Engineer (eCTS, Data Marketplace, Trial Guide)**  
