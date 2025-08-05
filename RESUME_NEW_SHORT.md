@@ -37,6 +37,7 @@ _2021–Present_
 - Worked cross-functionally with product owners to deliver scalable internal tooling and user management workflows.  
 - Coached and mentored interns; led Scrum meetings and engineering best practices.
 - Maintain and lead Next.js and Vue.js interface development for monitoring tools.
+- Developed RESTful APIs that combine data across business for org consumption.
 
 **Senior Software Engineer (Maestro - Study Orchestration)**  
 _2024–Present_  
