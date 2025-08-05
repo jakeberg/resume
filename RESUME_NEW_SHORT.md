@@ -26,7 +26,7 @@ Senior Software Engineer with 7+ years of experience designing scalable, cloud-n
 _Indianapolis, IN • 2019–Present_  
 _Employed by DMI until April 2025, now employed by Encora through acquisition_
 
-**Site Reliability Engineer / Technical Lead (LillyDev, IMS)**  
+**Site Reliability Engineer / Technical Lead (LillyDev, IMS, SAAS Secutiry)**  
 _2021–Present_  
 - Architected event-driven microservices using Lambda, SNS, SQS to reduce enterprise SaaS usage by 20%+.  
 - Managed AWS infrastructure (ECS, DynamoDB, Postgres) with IaC and CI/CD pipelines.  
