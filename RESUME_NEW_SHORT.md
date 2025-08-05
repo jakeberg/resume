@@ -22,8 +22,9 @@ Senior Software Engineer with 7+ years of experience designing scalable, cloud-n
 
 ### Experience  
 
-**DMI (Consulting at Eli Lilly)**  
-_Indianapolis, IN • 2019–Present_
+**Encora (formerly DMI) – Consultant at Eli Lilly**  
+_Indianapolis, IN • 2019–Present_  
+_Employed by DMI until April 2025, now employed by Encora through acquisition_
 
 **Site Reliability Engineer / Technical Lead (LillyDev, IMS)**  
 _2021–Present_  
